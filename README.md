@@ -1,21 +1,5 @@
 # **Android/iOS Log Filter Tool**
 
-Este proyecto proporciona herramientas para obtener, filtrar y organizar los logs de dispositivos **iOS** y **Android** en carpetas específicas, permitiendo el análisis de eventos como llamadas, red, ubicación, batería, entre otros.
-
-LogFilterTool/
-├── Filtros/
-│   ├── filter_audio.py        # Filtro para eventos relacionados con audio
-│   ├── filter_network.py      # Filtro para eventos relacionados con la red
-│   ├── filter_location.py     # Filtro para eventos relacionados con la ubicación
-│   ├── filter_camera.py       # Filtro para eventos relacionados con la cámara
-│   ├── filter_app_crashes.py  # Filtro para eventos relacionados con los fallos de aplicaciones
-│   ├── filter_battery.py      # Filtro para eventos relacionados con la batería
-│   ├── filter_system.py       # Filtro para eventos del sistema
-│   ├── filter_app_specific.py # Filtro para eventos específicos de aplicaciones (por ejemplo, Chrome)
-│   └── filter_touch.py        # Filtro para eventos relacionados con las interacciones táctiles
-├── run_all_filters_ios.py     # Script para ejecutar todos los filtros sobre logs de iOS
-├── run_all_filters_android.py # Script para ejecutar todos los filtros sobre logs de Android
-└── README.md                  # Documentación del proyecto
 
 
 El **Android/iOS Log Filter Tool** está diseñado para facilitar el análisis de los logs generados por dispositivos móviles. Los logs pueden ser capturados mediante herramientas como `adb logcat` en Android y `idevicesyslog` en iOS. Este proyecto permite la aplicación de varios filtros para extraer eventos específicos, como:
@@ -78,7 +62,7 @@ El **Android/iOS Log Filter Tool** está diseñado para facilitar el análisis d
   - `run_all_filters_ios.py`: Ejecuta todos los filtros en los logs de iOS.
   - `run_all_filters_android.py`: Ejecuta todos los filtros en los logs de Android.
 
-### **Ejemplo de Salida:**
+
 
 Después de ejecutar los filtros, se generarán archivos de log organizados en carpetas bajo `Logs/`. Ejemplo:
 
