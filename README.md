@@ -2,7 +2,6 @@
 
 Este proyecto proporciona herramientas para obtener, filtrar y organizar los logs de dispositivos **iOS** y **Android** en carpetas específicas, permitiendo el análisis de eventos como llamadas, red, ubicación, batería, entre otros.
 
-### **Estructura del Proyecto:**
 LogFilterTool/
 ├── Filtros/
 │   ├── filter_audio.py        # Filtro para eventos relacionados con audio
